@@ -111,7 +111,7 @@ const Pricing = () => {
                   Choose Plan
                 </Link>
               </div>
-            </div>
+            </div> 
           ))}
         </div>
       </div>

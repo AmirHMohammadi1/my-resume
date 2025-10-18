@@ -20,7 +20,7 @@ const FloatingElements = () => {
       {elements.map((element) => (
         <div
           key={element.id}
-          className="absolute animate-float text-green-400/20"
+          className="absolute animate-float text-green-400/40"
           style={{
             left: `${element.x}%`,
             top: `${element.y}%`,

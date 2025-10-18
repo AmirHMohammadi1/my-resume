@@ -1,51 +1,52 @@
-'use client';
+// 'use client';
 
-import { useEffect, useRef } from 'react';
+// import { useEffect, useRef } from 'react';
 
 const About = () => {
-  const skillContainerRef = useRef<HTMLDivElement>(null);
+  // const skillContainerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    if (!skillContainerRef.current) return;
+  // useEffect(() => {
+  //   if (!skillContainerRef.current) return;
 
-    const skillBars = skillContainerRef.current.querySelectorAll('.progress-line');
+  //   const skillBars = skillContainerRef.current.querySelectorAll('.progress-line');
     
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const skillBar = entry.target as HTMLDivElement;
-            const width = skillBar.getAttribute('data-width');
-            if (width) {
-              setTimeout(() => {
-                skillBar.style.width = `${width}%`;
-              }, 300);
-            }
-          }
-        });
-      },
-      { threshold: 0.5 }
-    );
+  //   const observer = new IntersectionObserver(
+  //     (entries) => {
+  //       entries.forEach((entry) => {
+  //         if (entry.isIntersecting) {
+  //           const skillBar = entry.target as HTMLDivElement;
+  //           const width = skillBar.getAttribute('data-width');
+  //           if (width) {
+  //             setTimeout(() => {
+  //               skillBar.style.width = `${width}%`;
+  //             }, 300);
+  //           }
+  //         }
+  //       });
+  //     },
+  //     { threshold: 0.5 }
+  //   );
 
-    skillBars.forEach((bar) => {
-      observer.observe(bar);
-    });
+  //   skillBars.forEach((bar) => {
+  //     observer.observe(bar);
+  //   });
 
-    return () => {
-      skillBars.forEach((bar) => {
-        observer.unobserve(bar);
-      });
-    };
-  }, []);
+  //   return () => {
+  //     skillBars.forEach((bar) => {
+  //       observer.unobserve(bar);
+  //     });
+  //   };
+  // }, []);
 
-  const skills = [
-    { name: 'JavaScript/TypeScript', percentage: 90 },
-    { name: 'React & Next.js', percentage: 88 },
-    { name: 'Node.js & Express', percentage: 87 },
-    { name: 'Python & Django', percentage: 76 },
-    { name: 'React Native', percentage: 80 },
-    { name: 'UI/UX Design', percentage: 75 },
-  ];
+  // const skills = [
+  //   { name: 'JavaScript/TypeScript', percentage: 90 },
+  //   { name: 'React & Next.js', percentage: 85 },
+  //   { name: 'Node.js & Express', percentage: 90 },
+  //   { name: 'Node.js & Nest', percentage: 85 },
+  //   { name: 'Python & Django', percentage: 65 },
+  //   { name: 'React Native', percentage: 70 },
+  //   { name: 'UI/UX Design', percentage: 65 },
+  // ];
 
   return (
     <section id="about" className="section-padding bg-white">
@@ -83,7 +84,7 @@ const About = () => {
                 exceptional user experiences and help businesses achieve their goals.
               </p>
 
-              <div className="about_skills space-y-6" ref={skillContainerRef}>
+              {/* <div className="about_skills space-y-6" ref={skillContainerRef}>
                 {skills.map((skill, index) => (
                   <div key={index} className="skill_item">
                     <div className="flex justify-between mb-2">
@@ -99,7 +100,7 @@ const About = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

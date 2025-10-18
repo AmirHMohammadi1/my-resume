@@ -1,21 +1,6 @@
 const Services = () => {
   const services = [
     {
-      icon: '🎨',
-      title: 'UI/UX Design',
-      description: 'Create intuitive and beautiful user interfaces that provide exceptional user experiences.'
-    },
-    {
-      icon: '💻',
-      title: 'Web Development',
-      description: 'Build responsive and high-performance websites using modern technologies and best practices.'
-    },
-    {
-      icon: '📱',
-      title: 'Mobile Development',
-      description: 'Develop cross-platform mobile applications that work seamlessly on all devices.'
-    },
-    {
       icon: '🚀',
       title: 'Frontend Development',
       description: 'Create interactive and dynamic user interfaces with React, Next.js, and modern JavaScript.'
@@ -29,6 +14,21 @@ const Services = () => {
       icon: '⚡',
       title: 'Full Stack Solutions',
       description: 'End-to-end development from concept to deployment with modern tech stacks.'
+    },
+    {
+      icon: '🎨',
+      title: 'UI/UX Design',
+      description: 'Create intuitive and beautiful user interfaces that provide exceptional user experiences.'
+    },
+    {
+      icon: '💻',
+      title: 'Web Development',
+      description: 'Build responsive and high-performance websites using modern technologies and best practices.'
+    },
+    {
+      icon: '📱',
+      title: 'Mobile Development',
+      description: 'Develop cross-platform mobile applications that work seamlessly on all devices.'
     }
   ];
 

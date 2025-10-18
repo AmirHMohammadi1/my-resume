@@ -6,7 +6,7 @@ import { useEffect, useState, useCallback, useMemo } from 'react';
 const Skills = () => {
   const [animatedSkills, setAnimatedSkills] = useState<Skill[]>([]);
 
-  // استفاده از useMemo برای جلوگیری از تغییر در هر رندر
+  // استفاده از useMemo برای جلوگیری از تغییر در هر رندر 
   const skills = useMemo((): Skill[] => [
     // Frontend
     { name: 'JavaScript', level: 90, category: 'frontend', icon: '⚡' },

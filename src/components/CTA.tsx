@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CTA = () => {
   return (
-    <section id="cta" className="section-padding bg-gradient-to-r from-blue-600 to-purple-600">
+    <section id="contact" className="section-padding bg-gradient-to-r from-blue-600 to-purple-600">
       <div className="container">
         <div className="call_to_action_wrapper animate-fadeIn">
           <div className="flex flex-col lg:flex-row justify-between items-center text-center lg:text-left">

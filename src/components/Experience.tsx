@@ -3,22 +3,22 @@ const Experience = () => {
     {
       number: '01',
       title: 'Full Stack Developer',
-      company: 'TechCorp',
-      period: 'March 2022 - Present',
+      company: 'FreeLance',
+      period: '2024 - Present',
       description: 'Led the development of multiple web applications using React, Next.js, and Node.js. Implemented responsive designs and optimized application performance.'
     },
     {
       number: '02',
       title: 'Frontend Developer',
-      company: 'WebSolutions Inc',
-      period: 'June 2020 - February 2022',
+      company: 'FreeLance',
+      period: '2022 - Present',
       description: 'Developed user interfaces for various clients using modern JavaScript frameworks. Collaborated with design teams to implement pixel-perfect designs.'
     },
     {
       number: '03',
-      title: 'Web Developer',
-      company: 'StartUpXYZ',
-      period: 'January 2019 - May 2020',
+      title: 'Backend Developer',
+      company: 'FreeLance',
+      period: '2023 - Present',
       description: 'Built and maintained company websites and web applications. Worked with various technologies including React, Vue.js, and traditional web stacks.'
     }
   ];

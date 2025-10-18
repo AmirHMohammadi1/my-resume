@@ -13,7 +13,7 @@ const CodeAnimation = () => {
   const [currentSnippet, setCurrentSnippet] = useState(0);
   const [displayedCode, setDisplayedCode] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
-
+ 
   useEffect(() => {
     const handleTyping = () => {
       const currentText = codeSnippets[currentSnippet];

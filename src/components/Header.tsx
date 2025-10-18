@@ -19,10 +19,12 @@ const Header = () => {
   const navItems = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
+    { name: 'Skills', href: '#skills' },
     { name: 'Services', href: '#services' },
     { name: 'Portfolio', href: '#portfolio' },
-    { name: 'Pricing', href: '#pricing' },
+    // { name: 'Pricing', href: '#pricing' },
     { name: 'Experience', href: '#experience' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   return (
@@ -33,7 +35,7 @@ const Header = () => {
         <div className="container">
           <nav className="navbar flex items-center justify-between">
             <Link className="navbar-brand text-2xl font-bold text-blue-600" href="#home">
-              Amir.M
+              Amir.H.Mohammadi
             </Link>
 
             {/* Desktop Menu */}
