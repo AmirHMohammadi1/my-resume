@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   output: 'export',
   distDir: 'docs',
   trailingSlash: true,
-  // basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
-  // assetPrefix: process.env.NODE_ENV === 'production' ? '/your-repo-name/' : '',
+  basePath: '/my-resume',
+  assetPrefix:'/my-resume/'
 };
 
 export default nextConfig;
