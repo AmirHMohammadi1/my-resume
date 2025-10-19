@@ -10,8 +10,8 @@ const Hero = () => {
     <section id="home" className="header_hero pt-32 pb-20 lg:pt-40 lg:pb-40 bg-gradient-to-br from-blue-50 to-indigo-200 relative overflow-hidden">
       {/* Social Links */}
       <div className="header_social hidden lg:flex fixed left-8 top-1/2 transform -translate-y-1/2 z-10 flex-col space-y-4">
-        <Link href="https://github.com/LinkmirHMohammadi1" className="text-gray-600 hover:text-blue-600 transition-colors" target="_blank"><FaGithub size={30} /></Link>
-        <Link href="https://linkedin.com/in/LinkmirHMohammadi/" className="text-gray-600 hover:text-blue-600 transition-colors" target="_blank"><FaLinkedin size={30} /></Link>
+        <Link href="https://github.com/AmirHMohammadi1" className="text-gray-600 hover:text-blue-600 transition-colors" target="_blank"><FaGithub size={30} /></Link>
+        <Link href="https://linkedin.com/in/AmirHMohammadi/" className="text-gray-600 hover:text-blue-600 transition-colors" target="_blank"><FaLinkedin size={30} /></Link>
         <Link href="https://t.me/mr_amir_developer" className="text-gray-600 hover:text-blue-600 transition-colors" target="_blank"><FaTelegram size={30} /></Link>
         <Link href="mailto:a.h.mohammadi5@gmail.com" className="text-gray-600 hover:text-blue-600 transition-colors"><MdEmail size={30} /></Link>
       </div>
