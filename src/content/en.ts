@@ -1,0 +1,285 @@
+import type { Dict } from './types';
+
+export const en: Dict = {
+  meta: {
+    title: 'Amir Hosein Mohammadi | Full Stack Developer & Freelancer',
+    description:
+      'Portfolio and resume of Amir Hosein Mohammadi — a Full Stack developer with 8+ years of freelance experience building websites, admin panels, APIs and providing ongoing support.',
+  },
+  nav: {
+    home: 'Home',
+    about: 'About',
+    services: 'Services',
+    skills: 'Skills',
+    projects: 'Projects',
+    journey: 'Journey',
+    blog: 'Blog',
+    contact: 'Contact',
+    menu: 'Open menu',
+    closeMenu: 'Close menu',
+    toggleTheme: 'Toggle dark/light theme',
+    switchLang: 'تغییر به فارسی',
+    switchLangShort: 'فا',
+    skip: 'Skip to main content',
+    primary: 'Main navigation',
+  },
+  hero: {
+    available: 'Available for new projects',
+    greeting: "Hi, I'm",
+    name: 'Amir Hosein Mohammadi',
+    roles: [
+      'Full Stack Developer',
+      'Website & admin panel builder',
+      'API designer & developer',
+      'Freelancer with 8+ years of experience',
+    ],
+    lead: 'I turn ideas into fast, secure and user-friendly web products — from interface design to backend, deployment and long-term support.',
+    ctaProjects: 'View projects',
+    ctaContact: 'Get in touch',
+    ctaResume: 'Download résumé',
+    stats: [
+      { value: 8, suffix: '+', label: 'Years freelancing' },
+      { value: 6, suffix: '', label: 'Featured GitHub projects' },
+      { value: 14, suffix: '+', label: 'Technologies & tools' },
+      { value: 12, suffix: '', label: 'Service areas' },
+    ],
+    scroll: 'Scroll',
+  },
+  about: {
+    eyebrow: 'About me',
+    title: 'A developer who understands both code and business',
+    paragraphs: [
+      "I'm Amir Hosein — a Full Stack developer and freelancer with more than 8 years of independent work. I love crafting great digital experiences and I specialize in turning creative ideas into real products using modern technologies.",
+      "A bachelor's degree in Business Administration and hands-on project management experience mean I don't think about code alone — I also look at business goals, timelines, cost and user experience, so the result truly serves the client.",
+      "These days I'm going deeper into Python and Django, and I'm interested in startups, open source and AI. My goal is to build products that make life a little better.",
+    ],
+    highlights: [
+      {
+        icon: 'briefcase',
+        title: '8+ years freelancing',
+        text: 'Independent work with clients and a wide range of web projects',
+      },
+      {
+        icon: 'graduation',
+        title: 'Management background',
+        text: 'B.Sc. in Business Administration plus project management experience',
+      },
+      {
+        icon: 'terminal',
+        title: 'Currently learning',
+        text: 'Python and Django, with a backend focus',
+      },
+      {
+        icon: 'zap',
+        title: 'Interests',
+        text: 'Startups, open source and AI',
+      },
+    ],
+    motto: 'Code, Error, Learn, Repeat!',
+    fact: 'Fun fact: I lose track of time when I code.',
+  },
+  services: {
+    eyebrow: 'Services',
+    title: 'Everything needed to build and maintain a web product',
+    intro: 'From idea and design to launch and support — one person, full accountability, no middlemen.',
+    items: [
+      {
+        icon: 'code',
+        title: 'Frontend development',
+        text: 'Fast, responsive and accessible interfaces with React, Next.js, Vue and Nuxt; pixel-accurate conversion of designs (Figma/PSD) to code.',
+        tags: ['React', 'Next.js', 'Vue', 'Nuxt', 'TypeScript'],
+      },
+      {
+        icon: 'server',
+        title: 'Backend & API development',
+        text: 'Secure, scalable REST and GraphQL APIs with Node.js, Express, NestJS, Python and Django, including authentication and role-based access.',
+        tags: ['Node.js', 'NestJS', 'Django', 'REST', 'GraphQL'],
+      },
+      {
+        icon: 'layers',
+        title: 'Full Stack development',
+        text: 'Products from zero to launch: web apps, admin panels, dashboards and business systems such as HR and e-learning platforms.',
+        tags: ['Web apps', 'Dashboards', 'LMS', 'HR'],
+      },
+      {
+        icon: 'pen',
+        title: 'UI / UX design',
+        text: 'User-centred UI/UX, design systems, dark and light themes, right-to-left and multilingual support, built with accessibility in mind.',
+        tags: ['UI/UX', 'Design System', 'RTL', 'a11y'],
+      },
+      {
+        icon: 'database',
+        title: 'Database & data design',
+        text: 'Data modelling, schema design, optimized queries and data migration across SQL and NoSQL databases.',
+        tags: ['SQL', 'NoSQL', 'ORM', 'Migration'],
+      },
+      {
+        icon: 'shield',
+        title: 'Web security',
+        text: 'Secure JWT authentication, password hashing, input validation and security best practices for APIs and web apps.',
+        tags: ['JWT', 'Validation', 'OWASP'],
+      },
+      {
+        icon: 'globe',
+        title: 'WordPress & ready-made sites',
+        text: 'Setting up and customizing corporate, shop and blog sites with WordPress — themes, plugins and optimization.',
+        tags: ['WordPress', 'Themes', 'Plugins', 'SEO'],
+      },
+      {
+        icon: 'smartphone',
+        title: 'Mobile apps',
+        text: 'Cross-platform apps for Android and iOS with React Native, connected to your own API.',
+        tags: ['React Native', 'Android', 'iOS'],
+      },
+      {
+        icon: 'search',
+        title: 'Technical SEO & performance',
+        text: 'Speed and Core Web Vitals optimization, technical SEO, sitemaps and structured data for better visibility in search engines.',
+        tags: ['SEO', 'Core Web Vitals', 'Sitemap', 'Schema'],
+      },
+      {
+        icon: 'rocket',
+        title: 'Deployment & light DevOps',
+        text: 'CI/CD setup, automated deployments, domain and SSL configuration and hosting — from GitHub Pages to dedicated servers.',
+        tags: ['Git', 'CI/CD', 'GitHub Actions', 'SSL'],
+      },
+      {
+        icon: 'wrench',
+        title: 'Support & maintenance',
+        text: 'Bug fixing, updates, monitoring, backups, continuous improvement and technical consulting after delivery.',
+        tags: ['Bug fixes', 'Maintenance', 'Monitoring', 'Consulting'],
+      },
+      {
+        icon: 'cpu',
+        title: 'Hardware services',
+        text: 'Troubleshooting and repair of mobile phone and computer hardware, backed by a technical vocational certification.',
+        tags: ['Mobile', 'Computers', 'Diagnostics'],
+      },
+    ],
+    cta: 'Have a project in mind?',
+    ctaButton: "Let's talk",
+  },
+  skills: {
+    eyebrow: 'Skills',
+    title: 'My toolbox',
+    intro: 'Technologies I work with every day, and the ones I am learning alongside them.',
+    groups: [
+      {
+        icon: 'code',
+        title: 'Frontend & mobile',
+        items: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'Vue.js', 'Nuxt.js', 'React Native'],
+      },
+      {
+        icon: 'server',
+        title: 'Backend & Full Stack',
+        items: ['Node.js', 'Express.js', 'NestJS', 'Python', 'Django'],
+      },
+      {
+        icon: 'wrench',
+        title: 'Tools & platforms',
+        items: ['Git', 'GitHub', 'WordPress'],
+      },
+      {
+        icon: 'briefcase',
+        title: 'Complementary skills',
+        items: ['Project management', 'Business administration', 'Mobile & PC hardware repair', 'Problem solving'],
+      },
+    ],
+  },
+  projects: {
+    eyebrow: 'Portfolio',
+    title: 'Featured projects',
+    intro: 'A selection of open-source projects from my GitHub — all the code is open for review.',
+    featured: 'Featured',
+    code: 'View code',
+    allRepos: 'All repositories on GitHub',
+    items: {
+      hr: {
+        text: 'A comprehensive human resources management platform built with Next.js 15 and NestJS 10 — modern architecture, advanced features and a friendly UI, including employee management and other HR modules.',
+      },
+      nexio: {
+        text: 'A modern, responsive admin dashboard built with Next.js 16 and Tailwind CSS 4 — dashboard, settings and profile pages, data tables, landing pages and authentication, on the App Router.',
+      },
+      nextui: {
+        text: 'A modern, responsive UI library for Next.js 14+ with a set of accessible components and dark mode support.',
+      },
+      auth: {
+        text: 'A secure Express.js authentication API with JWT and security best practices — registration, login, tokens, password hashing and input validation.',
+      },
+      lms: {
+        text: 'A web-based learning platform with MVC architecture, built with Node.js, Express and Bootstrap — manage courses, instructors, users and educational content.',
+      },
+      playground: {
+        text: 'A growing collection of projects and mini-apps for practicing modern web development — GraphQL, TypeScript, REST and more.',
+      },
+    },
+    client: {
+      badge: 'Coming soon',
+      title: 'Client work',
+      text: 'Some of my freelance projects are under confidentiality agreements. Showable examples will be added here soon.',
+    },
+  },
+  journey: {
+    eyebrow: 'Journey',
+    title: 'Experience, education & certificates',
+    experienceTitle: 'Experience',
+    experience: [
+      {
+        title: 'Full Stack Developer & Freelancer',
+        period: '8+ years · Present',
+        text: 'Designing, building and supporting websites, admin panels and APIs for a range of clients — full ownership from requirements to launch and maintenance.',
+        points: ['Requirements analysis and project scoping', 'Frontend and backend design and development', 'Deployment, monitoring and post-delivery support'],
+      },
+      {
+        title: 'Project management',
+        period: 'Current role',
+        text: 'Coordinating projects, scheduling and communication between the client and the technical team.',
+        points: [],
+      },
+    ],
+    educationTitle: 'Education',
+    education: [
+      {
+        title: "Bachelor's degree in Business Administration",
+        text: 'The foundation of my management and business mindset in technical projects.',
+      },
+    ],
+    certsTitle: 'Certificates',
+    certs: [
+      { title: 'Python certificate', issuer: 'Technical and Vocational Training Organization of Iran' },
+      { title: 'Mobile & computer hardware repair certificate', issuer: 'Technical and Vocational Training Organization of Iran' },
+    ],
+    nowTitle: 'Right now',
+    now: ['Going deeper into Python and Django', 'Building open-source tools and libraries', 'Exploring AI and startups'],
+  },
+  blog: {
+    eyebrow: 'Blog',
+    title: 'Technical notes',
+    intro: "Things I learn while working and think might help others too.",
+    read: 'Read article',
+    minutes: 'min read',
+    back: 'Back to blog',
+    empty: 'No articles published yet.',
+    latest: 'Latest writing',
+    all: 'All posts',
+  },
+  contact: {
+    eyebrow: 'Contact',
+    title: "Let's build something good together",
+    text: 'For collaboration, project requests or consulting, reach out through whichever channel suits you best and I will reply as soon as I can.',
+    email: 'Email',
+    telegram: 'Telegram',
+    linkedin: 'LinkedIn',
+    phone: 'Phone',
+    github: 'GitHub',
+    copy: 'Copy',
+    copied: 'Copied',
+    open: 'Open',
+    resumeText: 'Get the full résumé as a PDF',
+  },
+  footer: {
+    rights: 'All rights reserved.',
+    built: 'Designed & built by Amir Hosein Mohammadi',
+    top: 'Back to top',
+  },
+};
